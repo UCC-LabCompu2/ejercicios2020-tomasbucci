@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Conversor de Unidades</title>
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
-    <link href="miEstilo.css" rel="stylesheet" type="text/css">
+    <link href="miEstilo.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="misFunciones.js"> </script>
 </head>
 <body class="body-num">
 
@@ -12,10 +13,10 @@
     <h1>Conversor de Unidades</h1>
     <form>
         <p>
-            <label for="grados">Grados</label> = <input id="grados" name="unid_grados" type="text">
+            <label for="grados">Grados</label> = <input id="grados" type="text" name="unid_grados" onchange="convertirRad(this.id)">
         </p>
         <p>
-            <label for="radianes">Radianes</label> = <input id="radianes" name="unid_radianes" type="text">
+            <label for="radianes">Radianes</label> = <input id="radianes" type="text" name="unid_radianes" onchange="convertirRad(this.id)">
         </p>
     </form>
 </div>

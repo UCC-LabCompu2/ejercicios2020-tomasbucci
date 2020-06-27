@@ -14,8 +14,8 @@ h1{
 }
 
 .div-conver{
-    background: #FFFFFF;
-    border: 2px solid #000000;
+    background: #33DFFF;
+    border: 2px solid #FF33FE;
     border-radius: 20px;
     max-width: 430px;
     text-align: center;
@@ -25,7 +25,7 @@ h1{
 }
 
 .color-div{
-    background: #feab5a;
+    background: #4733FF;
     max-width: 500px;
 }
 
@@ -36,11 +36,11 @@ h1{
 /*Formulario*/
 input{
     border-radius: 2px;
-    box-shadow: 5px 5px 10px #7a8aac;
+    box-shadow: 5px 5px 10px #FF338C;
 }
 
 input:focus {
-    border-color: #19ac67;
+    border-color: #D7FF33;
 }
 
 .ejer{
@@ -55,13 +55,13 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
-    border: 1px solid #555;
+    background-color: #FFCD33;
+    border: 1px solid #444444;
 }
 
 li a {
     display: block;
-    color: #000;
+    color: #FF338C;
     padding: 8px 16px;
     text-decoration: none;
     font-family: 'Inknut Antiqua', serif;
@@ -78,11 +78,11 @@ li:last-child {
 }
 
 li a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #b4c5ff;
+    color: RED;
 }
 
 li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+    background-color: #D7FF33;
+    color: RED;
 }
